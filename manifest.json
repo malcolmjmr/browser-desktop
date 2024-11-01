@@ -7,13 +7,14 @@
       "tabs",
       "tabGroups",
       "storage",
-      "favicon"
+      "favicon",
+      "alarms"
     ],
     "action": {
       "default_title": "Clear Tabs"
     },
     "chrome_url_overrides": {
-      "newtab": "index.html"
+      "newtab": "desktop/index.html"
     },
     "background": {
       "service_worker": "background.js"
